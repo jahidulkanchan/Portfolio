@@ -328,3 +328,6 @@ header #nav-toggle{
   transform: rotate(-45deg);
   width: 100%;
 }
+.banner-section{
+  margin-top: 100px;
+}
