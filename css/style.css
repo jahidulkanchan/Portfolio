@@ -190,18 +190,11 @@ visibility: visible;
 
 /* Header-part */
 header {
-position: fixed;
 background-color: #ffffff;
-left: 0;
-top: 0;
-right: 0;
-margin: 0 auto;
-width: 100%;
 height: 80px;
-text-transform: capitalize;
 z-index: 99999;
 transition: .3s ease;
-box-shadow: 0px 1px 5px 0px rgba(129, 129, 129, 0.445);
+box-shadow: 0px 1px 5px 0px #81818171;
 }
 header .container{
 display: flex;
@@ -329,5 +322,5 @@ header #nav-toggle{
   width: 100%;
 }
 .banner-section{
-  margin-top: 100px;
+ padding: 30px 0px;
 }
