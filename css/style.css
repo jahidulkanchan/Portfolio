@@ -190,6 +190,9 @@ visibility: visible;
 
 /* Header-part */
 header {
+position: fixed;
+width: 100%;
+top: 0;
 background-color: #ffffff;
 height: 80px;
 z-index: 99999;
@@ -264,7 +267,7 @@ background-color: #60f000;
 color: #000000;
 } */
 header.hide{
-  transform: translateY(-90px);
+  transform: translateY(-80px);
 }
 header #nav-toggle{
   float: right;
@@ -322,6 +325,19 @@ header #nav-toggle{
   transform: rotate(-45deg);
   width: 100%;
 }
+/* -------Banner-section--------- */
 .banner-section{
+  margin-top: 90px;
  padding: 30px 0px;
+}
+.banner-section .image {
+  text-align: center;
+}
+.banner-section .image img{
+  object-fit: cover;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 50%;
+  background-color: var(--primary);
 }
