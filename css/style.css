@@ -361,6 +361,29 @@ header #nav-toggle{
   border-radius: 50%;
   background-color: var(--primary);
 }
+/* progress-part */
+  .skill-container {
+    max-width: 100%;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .progress-bar {
+    height: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    background-image:linear-gradient(20deg,green, #00ff00);
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #5151518e;
+    width: 0%;
+  }
 
 /* portfolio-section */
 .portfolio-section .project-item{
