@@ -419,8 +419,8 @@ header #nav-toggle{
     background-size: cover;
     background-image: url('../images/wave-haikei2.svg');
   }
-  .counter-part h1{
-    color: #ffffff;
+  .counter-part h2{
+    color: #000000;
   }
   .counter-part .card{
     display: flex;
