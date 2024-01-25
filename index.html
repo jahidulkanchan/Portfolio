@@ -192,13 +192,13 @@
           <div class="card">
             <div class="contact-card">
                 <h5>LET'S GET IN TOUCH</h5><hr>
-            <form action="#">
+            <form action="index.php" method="post">
             <div class="row">
-              <div class="col-lg-4"><input type="text" placeholder="Your Name" required></div>
-              <div class="col-lg-4"><input type="email" placeholder="Your Email" required></div>
+              <div class="col-lg-4"><input type="text" placeholder="Your Name" name="name" required></div>
+              <div class="col-lg-4"><input type="email" placeholder="Your Email" name="email" required></div>
               <div class="col-lg-4"><input type="text" placeholder="Subject"></div>
               <div class="col-lg-12">
-              <textarea name="textarea" cols="50" rows="4"  placeholder="Your Message.." style="width: 100%;"></textarea><br>
+              <textarea name="textarea" cols="50" rows="4"  placeholder="Your Message.." style="width: 100%;" name="message" required></textarea><br>
               <input type="submit" value="Send Message" class="link">
               </div>
             </div>           
