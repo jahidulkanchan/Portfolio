@@ -7,7 +7,7 @@
     $subject = "New Contact Form Submission";
     $push = "Name: " . $name . "\r\n Email: " . $email . "\r\n message: " . $message;
     $headers = "From: abc@gmail.com";
-    if($email != Null){
+    if($email!= Null){
       mail($to,$subject,$push,$headers);
     }
     header("location:index.html");
